@@ -1,0 +1,60 @@
+* {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.todolist {
+  width: 400px;
+  height: 600px;
+  background-color: #ffffec;
+  border-radius: 4%;
+}
+.todolist h1 {
+  font-size: 2em;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  margin-top: 8px;
+  background-color: #597e52;
+  color: #ffffec;
+  padding: 20px;
+  border-radius: 25% 25% 0 0;
+  margin-bottom: 10px;
+}
+.todolist_add {
+  display: flex;
+  justify-content: center;
+}
+.todolist_add input {
+  padding: 10px 30px 10px 30px;
+  border-radius: 5%;
+  border: 1px solid #b5b5b6;
+  margin-right: 10px;
+  font-size: 1.2em;
+}
+.todolist_add button {
+  margin-top: 7px;
+  background-color: #597e52;
+  height: 40px;
+}
+.todolist_list {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+.todolist_list p {
+  margin-left: 10px;
+  margin-top: 11px;
+  font-weight: 600;
+}
+.todolist_list_btn_edit {
+  background-color: #c6a969;
+  height: 36px;
+}
+.todolist_list_btn_del {
+  background-color: #c6a969;
+  height: 36px;
+}
