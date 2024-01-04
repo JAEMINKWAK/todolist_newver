@@ -1,5 +1,6 @@
 * {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  box-sizing: border-box;
 }
 body {
   display: flex;
@@ -8,7 +9,7 @@ body {
 }
 .todolist {
   width: 400px;
-  height: 600px;
+  height: 1080px;
   background-color: #ffffec;
   border-radius: 4%;
 }
@@ -39,6 +40,7 @@ body {
   margin-top: 7px;
   background-color: #597e52;
   height: 40px;
+  color: #ffffec;
 }
 .todolist_list {
   display: flex;
@@ -50,11 +52,15 @@ body {
   margin-top: 11px;
   font-weight: 600;
 }
-.todolist_list_btn_edit {
-  background-color: #c6a969;
-  height: 36px;
-}
+.todolist_list_btn_edit,
 .todolist_list_btn_del {
   background-color: #c6a969;
   height: 36px;
+  color: #ffffec;
+}
+.todolist_list_btn_edit {
+  margin-left: 1px;
+}
+.todolist_list_btn_del {
+  margin-left: 5px;
 }
