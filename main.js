@@ -2,6 +2,7 @@ let addInput = document.getElementById('todolist_add_input');
 let addBtn = document.querySelector('.todolist_add_btn');
 let todolist = document.querySelector('.todolist');
 
+// TODOLIST add content
 addBtn.addEventListener('click', function () {
   const listText = addInput.value.trim();
   if (listText !== '') {
@@ -46,6 +47,7 @@ function addList(listText) {
 
   todolist.appendChild(listItem);
 
+  // Content edit function
   editBtn.addEventListener('click', function () {
     const editParagraph = prompt(
       '수정할 내용을 입력하세요.',
@@ -58,6 +60,7 @@ function addList(listText) {
     }
   });
 
+  // Content delete function
   delBtn.addEventListener('click', function () {
     if (confirm('이 항목을 삭제하시겠습니까?')) {
       todolist.removeChild(listItem);
